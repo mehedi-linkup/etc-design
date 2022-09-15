@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="vendors/xZoom/xzoom.min.js"></script>
+    <link rel="stylesheet" href="vendors/xZoom/xzoom.min.css">
+    <script src="https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/hammer.js/1.0.5/jquery.hammer.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="banner" class="banner mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img-box">
+                        <img class="img-fluid" src="img/first-banner.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-box">
+                        <img class="img-fluid" src="img/second-banner.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-card" class="product-card mt-5">
+        <div class="container">
+            <div class="row row-cols-5">
+                <div class="col">
+                    <div class="product-item">
+                        <div class="product-collection">
+                            <div class="product-collection-img">
+                                <a href="">
+                                    <img class="product-img img-fluid" src="img/9_50029331-bee5-41eb-b099-a425401a99c6_1080x.webp" alt="">
+                                </a>
+                                <div class="img-overlay-offer">-5%</div>
+                                <div class="img-overlay-icons">
+                                    <ul class="overlay-ul">
+                                        <li><a href=""><i class="fas fa-eye"></i></a></li>
+                                        <li><a href=""><i class="fas fa-layer-group"></i></a></li>
+                                        <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-collection-content">
+                                <div class="product-collection-title">
+                                    <h4><a href="">Smart Watch for IOS Phone Proof</a></h4>
+                                </div>
+                                <div class="product-collection-review">
+                                    <ul class="product-collection-review-icon">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="product-collection-price">
+                                    <div class="current">$96.00</div>
+                                    <div class="discount">$13.00</div>
+                                </div>
+                                <div class="product-collection-cart">
+                                    <a href="" class="add-to-cart">
+                                        <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text text-uppercase">Add To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-item">
+                        <div class="product-collection">
+                            <div class="product-collection-img">
+                                <a href="">
+                                    <img class="product-img img-fluid" src="img/9_50029331-bee5-41eb-b099-a425401a99c6_1080x.webp" alt="">
+                                </a>
+                                <div class="img-overlay-offer">-5%</div>
+                                <div class="img-overlay-icons">
+                                    <ul class="overlay-ul">
+                                        <li><a href=""><i class="fas fa-eye"></i></a></li>
+                                        <li><a href=""><i class="fas fa-layer-group"></i></a></li>
+                                        <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-collection-content">
+                                <div class="product-collection-title">
+                                    <h4><a href="">Smart Watch for IOS Phone Proof</a></h4>
+                                </div>
+                                <div class="product-collection-review">
+                                    <ul class="product-collection-review-icon">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="product-collection-price">
+                                    <div class="current">$96.00</div>
+                                    <div class="discount">$13.00</div>
+                                </div>
+                                <div class="product-collection-cart">
+                                    <a href="" class="add-to-cart">
+                                        <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text text-uppercase">Add To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-item">
+                        <div class="product-collection">
+                            <div class="product-collection-img">
+                                <a href="">
+                                    <img class="product-img img-fluid" src="img/9_50029331-bee5-41eb-b099-a425401a99c6_1080x.webp" alt="">
+                                </a>
+                                <div class="img-overlay-offer">-5%</div>
+                                <div class="img-overlay-icons">
+                                    <ul class="overlay-ul">
+                                        <li><a href=""><i class="fas fa-eye"></i></a></li>
+                                        <li><a href=""><i class="fas fa-layer-group"></i></a></li>
+                                        <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-collection-content">
+                                <div class="product-collection-title">
+                                    <h4><a href="">Smart Watch for IOS Phone Proof</a></h4>
+                                </div>
+                                <div class="product-collection-review">
+                                    <ul class="product-collection-review-icon">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="product-collection-price">
+                                    <div class="current">$96.00</div>
+                                    <div class="discount">$13.00</div>
+                                </div>
+                                <div class="product-collection-cart">
+                                    <a href="" class="add-to-cart">
+                                        <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text text-uppercase">Add To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-item">
+                        <div class="product-collection">
+                            <div class="product-collection-img">
+                                <a href="">
+                                    <img class="product-img img-fluid" src="img/9_50029331-bee5-41eb-b099-a425401a99c6_1080x.webp" alt="">
+                                </a>
+                                <div class="img-overlay-offer">-5%</div>
+                                <div class="img-overlay-icons">
+                                    <ul class="overlay-ul">
+                                        <li><a href=""><i class="fas fa-eye"></i></a></li>
+                                        <li><a href=""><i class="fas fa-layer-group"></i></a></li>
+                                        <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-collection-content">
+                                <div class="product-collection-title">
+                                    <h4><a href="">Smart Watch for IOS Phone Proof</a></h4>
+                                </div>
+                                <div class="product-collection-review">
+                                    <ul class="product-collection-review-icon">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="product-collection-price">
+                                    <div class="current">$96.00</div>
+                                    <div class="discount">$13.00</div>
+                                </div>
+                                <div class="product-collection-cart">
+                                    <a href="" class="add-to-cart">
+                                        <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text text-uppercase">Add To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-item">
+                        <div class="product-collection">
+                            <div class="product-collection-img">
+                                <a href="">
+                                    <img class="product-img img-fluid" src="img/9_50029331-bee5-41eb-b099-a425401a99c6_1080x.webp" alt="">
+                                </a>
+                                <div class="img-overlay-offer">-5%</div>
+                                <div class="img-overlay-icons">
+                                    <ul class="overlay-ul">
+                                        <li><a href=""><i class="fas fa-eye"></i></a></li>
+                                        <li><a href=""><i class="fas fa-layer-group"></i></a></li>
+                                        <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-collection-content">
+                                <div class="product-collection-title">
+                                    <h4><a href="">Smart Watch for IOS Phone Proof</a></h4>
+                                </div>
+                                <div class="product-collection-review">
+                                    <ul class="product-collection-review-icon">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="product-collection-price">
+                                    <div class="current">$96.00</div>
+                                    <div class="discount">$13.00</div>
+                                </div>
+                                <div class="product-collection-cart">
+                                    <a href="" class="add-to-cart">
+                                        <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text text-uppercase">Add To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-item">
+                        <div class="product-collection">
+                            <div class="product-collection-img">
+                                <a href="">
+                                    <img class="product-img img-fluid" src="img/9_50029331-bee5-41eb-b099-a425401a99c6_1080x.webp" alt="">
+                                </a>
+                                <div class="img-overlay-offer">-5%</div>
+                                <div class="img-overlay-icons">
+                                    <ul class="overlay-ul">
+                                        <li><a href=""><i class="fas fa-eye"></i></a></li>
+                                        <li><a href=""><i class="fas fa-layer-group"></i></a></li>
+                                        <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-collection-content">
+                                <div class="product-collection-title">
+                                    <h4><a href="">Smart Watch for IOS Phone Proof</a></h4>
+                                </div>
+                                <div class="product-collection-review">
+                                    <ul class="product-collection-review-icon">
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="product-collection-price">
+                                    <div class="current">$96.00</div>
+                                    <div class="discount">$13.00</div>
+                                </div>
+                                <div class="product-collection-cart">
+                                    <a href="" class="add-to-cart">
+                                        <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text text-uppercase">Add To Cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="zoom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="xzoom-container">
+                        <img class="xzoom" src="img/zoom/01_b_car.jpg" xoriginal="img/zoom/01_b_car.jpg" />
+                        <div class="xzoom-thumbs">
+                            <a href="img/zoom/01_b_car.jpg">
+                                <img class="xzoom-gallery" width="80" src="img/zoom/01_b_car.jpg"
+                                    xpreview="img/zoom/01_b_car.jpg">
+                            </a>
+                            <a href="img/zoom/02_o_car.jpg">
+                                <img class="xzoom-gallery" width="80" src="img/zoom/02_o_car.jpg">
+                            </a>
+                            <a href="img/zoom/03_r_car.jpg">
+                                <img class="xzoom-gallery" width="80" src="img/zoom/03_r_car.jpg">
+                            </a>
+                            <a href="img/zoom/04_g_car.jpg">
+                                <img class="xzoom-gallery" width="80" src="img/zoom/04_g_car.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="xzoom-container">
+                    <img class="xzoom" id="xzoom-default" src="img/zoom/01_b_car.jpg" xoriginal="img/zoom/01_b_car.jpg" />
+                    <div class="xzoom-thumbs">
+                      <a href="img/zoom/01_b_car.jpg"><img class="xzoom-gallery" width="80" src="img/zoom/01_b_car.jpg" title="The description goes here"></a>
+                      <a href="img/zoom/02_o_car.jpg"><img class="xzoom-gallery" width="80" src="img/zoom/02_o_car.jpg" title="The description goes here"></a>
+                      <a href="img/zoom/03_r_car.jpg"><img class="xzoom-gallery" width="80" src="img/zoom/03_r_car.jpg" title="The description goes here"></a>
+                      <a href="img/zoom/04_g_car.jpg"><img class="xzoom-gallery" width="80" src="img/zoom/04_g_car.jpg" title="The description goes here"></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fontawesome -->
+    <script src="vendors/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+        $(".xzoom, .xzoom-gallery").xzoom({zoomWidth: 400, title: true, tint: '#333', Xoffset: 15});
+        //Integration with hammer.js
+        var isTouchSupported = 'ontouchstart' in window;
+
+        if (isTouchSupported) {
+            //If touch device
+            $('.xzoom, .xzoom2, .xzoom3, .xzoom4, .xzoom5').each(function(){
+                var xzoom = $(this).data('xzoom');
+                xzoom.eventunbind();
+            });
+            
+            $('.xzoom, .xzoom2, .xzoom3').each(function() {
+                var xzoom = $(this).data('xzoom');
+                $(this).hammer().on("tap", function(event) {
+                    event.pageX = event.gesture.center.pageX;
+                    event.pageY = event.gesture.center.pageY;
+                    var s = 1, ls;
+    
+                    xzoom.eventmove = function(element) {
+                        element.hammer().on('drag', function(event) {
+                            event.pageX = event.gesture.center.pageX;
+                            event.pageY = event.gesture.center.pageY;
+                            xzoom.movezoom(event);
+                            event.gesture.preventDefault();
+                        });
+                    }
+    
+                    xzoom.eventleave = function(element) {
+                        element.hammer().on('tap', function(event) {
+                            xzoom.closezoom();
+                        });
+                    }
+                    xzoom.openzoom(event);
+                });
+            });
+        }
+    </script>
+</body>
+
+<!-- https://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/#magnific -->
+
+
+</html>
